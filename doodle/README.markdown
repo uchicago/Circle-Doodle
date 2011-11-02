@@ -1,0 +1,1 @@
+This project uses a custom UIGestureRecognizer to identify if the user drew a circle on the screen.

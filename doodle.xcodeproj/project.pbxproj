@@ -17,6 +17,7 @@
 		37D26D701460EA5700E81B3A /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 37D26D6E1460EA5700E81B3A /* HomeViewController.xib */; };
 		37D26D731460EBAD00E81B3A /* DoodleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 37D26D721460EBAD00E81B3A /* DoodleView.m */; };
 		37D26D8D1461C76100E81B3A /* CircleGestureRecognizer.m in Sources */ = {isa = PBXBuildFile; fileRef = 37D26D8C1461C76100E81B3A /* CircleGestureRecognizer.m */; };
+		37D26D931461EDF900E81B3A /* README.markdown in Resources */ = {isa = PBXBuildFile; fileRef = 37D26D921461EDF900E81B3A /* README.markdown */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +38,7 @@
 		37D26D721460EBAD00E81B3A /* DoodleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DoodleView.m; sourceTree = "<group>"; };
 		37D26D8B1461C76100E81B3A /* CircleGestureRecognizer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CircleGestureRecognizer.h; sourceTree = "<group>"; };
 		37D26D8C1461C76100E81B3A /* CircleGestureRecognizer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CircleGestureRecognizer.m; sourceTree = "<group>"; };
+		37D26D921461EDF900E81B3A /* README.markdown */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = README.markdown; path = doodle/README.markdown; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 		37D26D3F1460E70900E81B3A = {
 			isa = PBXGroup;
 			children = (
+				37D26D921461EDF900E81B3A /* README.markdown */,
 				37D26D541460E70900E81B3A /* doodle */,
 				37D26D4D1460E70900E81B3A /* Frameworks */,
 				37D26D4B1460E70900E81B3A /* Products */,
@@ -160,6 +163,7 @@
 			files = (
 				37D26D591460E70900E81B3A /* InfoPlist.strings in Resources */,
 				37D26D701460EA5700E81B3A /* HomeViewController.xib in Resources */,
+				37D26D931461EDF900E81B3A /* README.markdown in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
