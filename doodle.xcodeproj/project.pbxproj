@@ -13,6 +13,10 @@
 		37D26D591460E70900E81B3A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 37D26D571460E70900E81B3A /* InfoPlist.strings */; };
 		37D26D5B1460E70900E81B3A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 37D26D5A1460E70900E81B3A /* main.m */; };
 		37D26D5F1460E70A00E81B3A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 37D26D5E1460E70A00E81B3A /* AppDelegate.m */; };
+		37D26D6F1460EA5700E81B3A /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 37D26D6D1460EA5700E81B3A /* HomeViewController.m */; };
+		37D26D701460EA5700E81B3A /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 37D26D6E1460EA5700E81B3A /* HomeViewController.xib */; };
+		37D26D731460EBAD00E81B3A /* DoodleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 37D26D721460EBAD00E81B3A /* DoodleView.m */; };
+		37D26D8D1461C76100E81B3A /* CircleGestureRecognizer.m in Sources */ = {isa = PBXBuildFile; fileRef = 37D26D8C1461C76100E81B3A /* CircleGestureRecognizer.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,12 +24,19 @@
 		37D26D4E1460E70900E81B3A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		37D26D501460E70900E81B3A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		37D26D521460E70900E81B3A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		37D26D561460E70900E81B3A /* doodle-Info.plist */ = {isa = PBXFileReference; path = "doodle-Info.plist"; sourceTree = "<group>"; };
+		37D26D561460E70900E81B3A /* doodle-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "doodle-Info.plist"; sourceTree = "<group>"; };
 		37D26D581460E70900E81B3A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		37D26D5A1460E70900E81B3A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		37D26D5C1460E70900E81B3A /* doodle-Prefix.pch */ = {isa = PBXFileReference; path = "doodle-Prefix.pch"; sourceTree = "<group>"; };
-		37D26D5D1460E70900E81B3A /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		37D26D5C1460E70900E81B3A /* doodle-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "doodle-Prefix.pch"; sourceTree = "<group>"; };
+		37D26D5D1460E70900E81B3A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		37D26D5E1460E70A00E81B3A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		37D26D6C1460EA5700E81B3A /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		37D26D6D1460EA5700E81B3A /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		37D26D6E1460EA5700E81B3A /* HomeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
+		37D26D711460EBAD00E81B3A /* DoodleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DoodleView.h; sourceTree = "<group>"; };
+		37D26D721460EBAD00E81B3A /* DoodleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DoodleView.m; sourceTree = "<group>"; };
+		37D26D8B1461C76100E81B3A /* CircleGestureRecognizer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CircleGestureRecognizer.h; sourceTree = "<group>"; };
+		37D26D8C1461C76100E81B3A /* CircleGestureRecognizer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CircleGestureRecognizer.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +85,13 @@
 			children = (
 				37D26D5D1460E70900E81B3A /* AppDelegate.h */,
 				37D26D5E1460E70A00E81B3A /* AppDelegate.m */,
+				37D26D6C1460EA5700E81B3A /* HomeViewController.h */,
+				37D26D6D1460EA5700E81B3A /* HomeViewController.m */,
+				37D26D6E1460EA5700E81B3A /* HomeViewController.xib */,
+				37D26D711460EBAD00E81B3A /* DoodleView.h */,
+				37D26D721460EBAD00E81B3A /* DoodleView.m */,
+				37D26D8B1461C76100E81B3A /* CircleGestureRecognizer.h */,
+				37D26D8C1461C76100E81B3A /* CircleGestureRecognizer.m */,
 				37D26D551460E70900E81B3A /* Supporting Files */,
 			);
 			path = doodle;
@@ -141,6 +159,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				37D26D591460E70900E81B3A /* InfoPlist.strings in Resources */,
+				37D26D701460EA5700E81B3A /* HomeViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -153,6 +172,9 @@
 			files = (
 				37D26D5B1460E70900E81B3A /* main.m in Sources */,
 				37D26D5F1460E70A00E81B3A /* AppDelegate.m in Sources */,
+				37D26D6F1460EA5700E81B3A /* HomeViewController.m in Sources */,
+				37D26D731460EBAD00E81B3A /* DoodleView.m in Sources */,
+				37D26D8D1461C76100E81B3A /* CircleGestureRecognizer.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
