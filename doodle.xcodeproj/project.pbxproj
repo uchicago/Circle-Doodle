@@ -1,0 +1,265 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		37D26D4F1460E70900E81B3A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37D26D4E1460E70900E81B3A /* UIKit.framework */; };
+		37D26D511460E70900E81B3A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37D26D501460E70900E81B3A /* Foundation.framework */; };
+		37D26D531460E70900E81B3A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37D26D521460E70900E81B3A /* CoreGraphics.framework */; };
+		37D26D591460E70900E81B3A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 37D26D571460E70900E81B3A /* InfoPlist.strings */; };
+		37D26D5B1460E70900E81B3A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 37D26D5A1460E70900E81B3A /* main.m */; };
+		37D26D5F1460E70A00E81B3A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 37D26D5E1460E70A00E81B3A /* AppDelegate.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		37D26D4A1460E70900E81B3A /* doodle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = doodle.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		37D26D4E1460E70900E81B3A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		37D26D501460E70900E81B3A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		37D26D521460E70900E81B3A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		37D26D561460E70900E81B3A /* doodle-Info.plist */ = {isa = PBXFileReference; path = "doodle-Info.plist"; sourceTree = "<group>"; };
+		37D26D581460E70900E81B3A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		37D26D5A1460E70900E81B3A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		37D26D5C1460E70900E81B3A /* doodle-Prefix.pch */ = {isa = PBXFileReference; path = "doodle-Prefix.pch"; sourceTree = "<group>"; };
+		37D26D5D1460E70900E81B3A /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		37D26D5E1460E70A00E81B3A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		37D26D471460E70900E81B3A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37D26D4F1460E70900E81B3A /* UIKit.framework in Frameworks */,
+				37D26D511460E70900E81B3A /* Foundation.framework in Frameworks */,
+				37D26D531460E70900E81B3A /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		37D26D3F1460E70900E81B3A = {
+			isa = PBXGroup;
+			children = (
+				37D26D541460E70900E81B3A /* doodle */,
+				37D26D4D1460E70900E81B3A /* Frameworks */,
+				37D26D4B1460E70900E81B3A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		37D26D4B1460E70900E81B3A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				37D26D4A1460E70900E81B3A /* doodle.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		37D26D4D1460E70900E81B3A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				37D26D4E1460E70900E81B3A /* UIKit.framework */,
+				37D26D501460E70900E81B3A /* Foundation.framework */,
+				37D26D521460E70900E81B3A /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		37D26D541460E70900E81B3A /* doodle */ = {
+			isa = PBXGroup;
+			children = (
+				37D26D5D1460E70900E81B3A /* AppDelegate.h */,
+				37D26D5E1460E70A00E81B3A /* AppDelegate.m */,
+				37D26D551460E70900E81B3A /* Supporting Files */,
+			);
+			path = doodle;
+			sourceTree = "<group>";
+		};
+		37D26D551460E70900E81B3A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				37D26D561460E70900E81B3A /* doodle-Info.plist */,
+				37D26D571460E70900E81B3A /* InfoPlist.strings */,
+				37D26D5A1460E70900E81B3A /* main.m */,
+				37D26D5C1460E70900E81B3A /* doodle-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		37D26D491460E70900E81B3A /* doodle */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 37D26D621460E70A00E81B3A /* Build configuration list for PBXNativeTarget "doodle" */;
+			buildPhases = (
+				37D26D461460E70900E81B3A /* Sources */,
+				37D26D471460E70900E81B3A /* Frameworks */,
+				37D26D481460E70900E81B3A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = doodle;
+			productName = doodle;
+			productReference = 37D26D4A1460E70900E81B3A /* doodle.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		37D26D411460E70900E81B3A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 37D26D441460E70900E81B3A /* Build configuration list for PBXProject "doodle" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 37D26D3F1460E70900E81B3A;
+			productRefGroup = 37D26D4B1460E70900E81B3A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				37D26D491460E70900E81B3A /* doodle */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		37D26D481460E70900E81B3A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37D26D591460E70900E81B3A /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		37D26D461460E70900E81B3A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37D26D5B1460E70900E81B3A /* main.m in Sources */,
+				37D26D5F1460E70A00E81B3A /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		37D26D571460E70900E81B3A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				37D26D581460E70900E81B3A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		37D26D601460E70A00E81B3A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		37D26D611460E70A00E81B3A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		37D26D631460E70A00E81B3A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "doodle/doodle-Prefix.pch";
+				INFOPLIST_FILE = "doodle/doodle-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		37D26D641460E70A00E81B3A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "doodle/doodle-Prefix.pch";
+				INFOPLIST_FILE = "doodle/doodle-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		37D26D441460E70900E81B3A /* Build configuration list for PBXProject "doodle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				37D26D601460E70A00E81B3A /* Debug */,
+				37D26D611460E70A00E81B3A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		37D26D621460E70A00E81B3A /* Build configuration list for PBXNativeTarget "doodle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				37D26D631460E70A00E81B3A /* Debug */,
+				37D26D641460E70A00E81B3A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 37D26D411460E70900E81B3A /* Project object */;
+}
